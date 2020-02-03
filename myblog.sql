@@ -1,3 +1,7 @@
+CREATE DATABASE myblog;
+
+USE myblog;
+
 CREATE TABLE `categories` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
